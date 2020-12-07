@@ -10,7 +10,11 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-    @IBOutlet weak var nextBtn: WKInterfaceButton!
+    
+    @IBAction func nextBtn() {
+        self.pushController(withName: "SecondInterfaceController", context: nil)
+    }
+    
     
     override func awake(withContext context: Any?) {
         

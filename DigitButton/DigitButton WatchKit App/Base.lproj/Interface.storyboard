@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17506" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38"/>
+    <device id="watch44"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
@@ -11,49 +11,49 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DigitButton_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="136" height="34" alignment="left" text="Label" textAlignment="right" id="o81-uI-bjw"/>
-                        <group width="1" height="25" alignment="center" id="CjG-pw-hYc">
+                        <label width="1" height="40" alignment="left" text="Label" textAlignment="right" id="o81-uI-bjw"/>
+                        <group width="1" alignment="center" id="CjG-pw-hYc">
                             <items>
-                                <button width="42" height="38" alignment="left" title="1" id="tHC-jf-WsM"/>
-                                <button width="42" height="38" alignment="left" title="2" id="Ggt-mt-8vl"/>
-                                <button width="42" height="38" alignment="left" title="3" id="oCo-Ck-qT3"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="1" id="tHC-jf-WsM"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="2" id="Ggt-mt-8vl"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="3" id="oCo-Ck-qT3"/>
                             </items>
                         </group>
-                        <group width="1" height="25" alignment="center" id="fPc-Oz-Kb1">
+                        <group width="1" alignment="center" id="fPc-Oz-Kb1">
                             <items>
-                                <button width="42" height="38" alignment="left" title="4" id="XQX-aW-djb"/>
-                                <button width="42" height="38" alignment="left" title="5" id="I71-yt-nIm"/>
-                                <button width="42" height="38" alignment="left" title="6" id="2wd-gq-hWM"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="4" id="XQX-aW-djb"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="5" id="I71-yt-nIm"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="6" id="2wd-gq-hWM"/>
                             </items>
                         </group>
-                        <group width="1" height="25" alignment="center" id="sKI-YB-rae">
+                        <group width="1" alignment="center" id="sKI-YB-rae">
                             <items>
-                                <button width="42" height="38" alignment="left" title="7" id="EgR-mn-LUA"/>
-                                <button width="42" height="38" alignment="left" title="8" id="Zyd-gR-Tvw"/>
-                                <button width="42" height="38" alignment="left" title="9" id="tYV-UX-54d"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="7" id="EgR-mn-LUA"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="8" id="Zyd-gR-Tvw"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" title="9" id="tYV-UX-54d"/>
                             </items>
                         </group>
-                        <group width="1" height="25" alignment="center" id="6hH-PR-RKH">
+                        <group width="1" alignment="center" id="6hH-PR-RKH">
                             <items>
-                                <button width="42" height="38" alignment="left" alpha="0.0" id="QZa-hG-a1j"/>
-                                <button width="42" height="38" alignment="left" title="0" id="B1z-9m-gzg"/>
-                                <button width="42" height="38" alignment="left" backgroundImage="arrow.right" catalog="system" id="Fmx-Tp-mlL">
+                                <button width="0.33000000000000002" height="38" alignment="left" alpha="0.0" id="QZa-hG-a1j"/>
+                                <button width="0.33000000000000002" alignment="left" title="0" id="B1z-9m-gzg"/>
+                                <button width="0.33000000000000002" height="38" alignment="left" backgroundImage="arrow.right" catalog="system" id="Fmx-Tp-mlL">
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <connections>
+                                        <action selector="nextBtn" destination="AgC-eL-Hgc" id="DbH-gX-nO1"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
                     </items>
-                    <connections>
-                        <outlet property="nextBtn" destination="Fmx-Tp-mlL" id="iX1-ay-O6w"/>
-                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="340"/>
+            <point key="canvasLocation" x="219.52173913043478" y="340"/>
         </scene>
-        <!--Interface Controller-->
+        <!--SecondInterfaceController-->
         <scene sceneID="rIr-fV-jU0">
             <objects>
-                <controller id="ZPW-y4-Txb">
+                <controller identifier="SecondInterfaceController" id="ZPW-y4-Txb" customClass="SecondInterFaceController" customModule="DigitButton_WatchKit_Extension">
                     <items>
                         <button width="1" alignment="left" title="sescond" id="uQk-w2-t3I"/>
                     </items>
