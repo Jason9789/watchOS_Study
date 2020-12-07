@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063F9A6D257E6F5000E62076 /* DigitButton WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 063F9A6C257E6F5000E62076 /* DigitButton WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		063F9A73257E6F5000E62076 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063F9A71257E6F5000E62076 /* Interface.storyboard */; };
+		063F9A75257E6F5400E62076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063F9A74257E6F5400E62076 /* Assets.xcassets */; };
+		063F9A7C257E6F5400E62076 /* DigitButton WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 063F9A7B257E6F5400E62076 /* DigitButton WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		063F9A81257E6F5400E62076 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F9A80257E6F5400E62076 /* InterfaceController.swift */; };
+		063F9A83257E6F5400E62076 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F9A82257E6F5400E62076 /* ExtensionDelegate.swift */; };
+		063F9A85257E6F5400E62076 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F9A84257E6F5400E62076 /* NotificationController.swift */; };
+		063F9A87257E6F5400E62076 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F9A86257E6F5400E62076 /* ComplicationController.swift */; };
+		063F9A89257E6F5600E62076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063F9A88257E6F5600E62076 /* Assets.xcassets */; };
+		063F9A9D257E722D00E62076 /* SecondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F9A9C257E722D00E62076 /* SecondInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		063F9A6E257E6F5000E62076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063F9A62257E6F4F00E62076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063F9A6B257E6F5000E62076;
+			remoteInfo = "DigitButton WatchKit App";
+		};
+		063F9A7D257E6F5400E62076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063F9A62257E6F4F00E62076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063F9A7A257E6F5400E62076;
+			remoteInfo = "DigitButton WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		063F9A91257E6F5600E62076 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				063F9A7C257E6F5400E62076 /* DigitButton WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063F9A95257E6F5600E62076 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				063F9A6D257E6F5000E62076 /* DigitButton WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		063F9A68257E6F4F00E62076 /* DigitButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		063F9A6C257E6F5000E62076 /* DigitButton WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigitButton WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		063F9A72257E6F5000E62076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		063F9A74257E6F5400E62076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		063F9A76257E6F5400E62076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063F9A7B257E6F5400E62076 /* DigitButton WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DigitButton WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		063F9A80257E6F5400E62076 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		063F9A82257E6F5400E62076 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		063F9A84257E6F5400E62076 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		063F9A86257E6F5400E62076 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		063F9A88257E6F5600E62076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		063F9A8A257E6F5600E62076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063F9A8B257E6F5600E62076 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		063F9A9C257E722D00E62076 /* SecondInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063F9A78257E6F5400E62076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063F9A61257E6F4F00E62076 = {
+			isa = PBXGroup;
+			children = (
+				063F9A70257E6F5000E62076 /* DigitButton WatchKit App */,
+				063F9A7F257E6F5400E62076 /* DigitButton WatchKit Extension */,
+				063F9A69257E6F4F00E62076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		063F9A69257E6F4F00E62076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063F9A68257E6F4F00E62076 /* DigitButton.app */,
+				063F9A6C257E6F5000E62076 /* DigitButton WatchKit App.app */,
+				063F9A7B257E6F5400E62076 /* DigitButton WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		063F9A70257E6F5000E62076 /* DigitButton WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				063F9A71257E6F5000E62076 /* Interface.storyboard */,
+				063F9A74257E6F5400E62076 /* Assets.xcassets */,
+				063F9A76257E6F5400E62076 /* Info.plist */,
+			);
+			path = "DigitButton WatchKit App";
+			sourceTree = "<group>";
+		};
+		063F9A7F257E6F5400E62076 /* DigitButton WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				063F9A80257E6F5400E62076 /* InterfaceController.swift */,
+				063F9A82257E6F5400E62076 /* ExtensionDelegate.swift */,
+				063F9A84257E6F5400E62076 /* NotificationController.swift */,
+				063F9A86257E6F5400E62076 /* ComplicationController.swift */,
+				063F9A88257E6F5600E62076 /* Assets.xcassets */,
+				063F9A8A257E6F5600E62076 /* Info.plist */,
+				063F9A8B257E6F5600E62076 /* PushNotificationPayload.apns */,
+				063F9A9C257E722D00E62076 /* SecondInterfaceController.swift */,
+			);
+			path = "DigitButton WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063F9A67257E6F4F00E62076 /* DigitButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063F9A96257E6F5600E62076 /* Build configuration list for PBXNativeTarget "DigitButton" */;
+			buildPhases = (
+				063F9A66257E6F4F00E62076 /* Resources */,
+				063F9A95257E6F5600E62076 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				063F9A6F257E6F5000E62076 /* PBXTargetDependency */,
+			);
+			name = DigitButton;
+			productName = DigitButton;
+			productReference = 063F9A68257E6F4F00E62076 /* DigitButton.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		063F9A6B257E6F5000E62076 /* DigitButton WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063F9A92257E6F5600E62076 /* Build configuration list for PBXNativeTarget "DigitButton WatchKit App" */;
+			buildPhases = (
+				063F9A6A257E6F5000E62076 /* Resources */,
+				063F9A91257E6F5600E62076 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				063F9A7E257E6F5400E62076 /* PBXTargetDependency */,
+			);
+			name = "DigitButton WatchKit App";
+			productName = "DigitButton WatchKit App";
+			productReference = 063F9A6C257E6F5000E62076 /* DigitButton WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		063F9A7A257E6F5400E62076 /* DigitButton WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063F9A8E257E6F5600E62076 /* Build configuration list for PBXNativeTarget "DigitButton WatchKit Extension" */;
+			buildPhases = (
+				063F9A77257E6F5400E62076 /* Sources */,
+				063F9A78257E6F5400E62076 /* Frameworks */,
+				063F9A79257E6F5400E62076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigitButton WatchKit Extension";
+			productName = "DigitButton WatchKit Extension";
+			productReference = 063F9A7B257E6F5400E62076 /* DigitButton WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063F9A62257E6F4F00E62076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					063F9A67257E6F4F00E62076 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					063F9A6B257E6F5000E62076 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					063F9A7A257E6F5400E62076 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 063F9A65257E6F4F00E62076 /* Build configuration list for PBXProject "DigitButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 063F9A61257E6F4F00E62076;
+			productRefGroup = 063F9A69257E6F4F00E62076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063F9A67257E6F4F00E62076 /* DigitButton */,
+				063F9A6B257E6F5000E62076 /* DigitButton WatchKit App */,
+				063F9A7A257E6F5400E62076 /* DigitButton WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063F9A66257E6F4F00E62076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063F9A6A257E6F5000E62076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063F9A75257E6F5400E62076 /* Assets.xcassets in Resources */,
+				063F9A73257E6F5000E62076 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063F9A79257E6F5400E62076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063F9A89257E6F5600E62076 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063F9A77257E6F5400E62076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063F9A9D257E722D00E62076 /* SecondInterfaceController.swift in Sources */,
+				063F9A85257E6F5400E62076 /* NotificationController.swift in Sources */,
+				063F9A87257E6F5400E62076 /* ComplicationController.swift in Sources */,
+				063F9A83257E6F5400E62076 /* ExtensionDelegate.swift in Sources */,
+				063F9A81257E6F5400E62076 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		063F9A6F257E6F5000E62076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063F9A6B257E6F5000E62076 /* DigitButton WatchKit App */;
+			targetProxy = 063F9A6E257E6F5000E62076 /* PBXContainerItemProxy */;
+		};
+		063F9A7E257E6F5400E62076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063F9A7A257E6F5400E62076 /* DigitButton WatchKit Extension */;
+			targetProxy = 063F9A7D257E6F5400E62076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		063F9A71257E6F5000E62076 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063F9A72257E6F5000E62076 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		063F9A8C257E6F5600E62076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		063F9A8D257E6F5600E62076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		063F9A8F257E6F5600E62076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKSNRHW63A;
+				INFOPLIST_FILE = "DigitButton WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangeun.DigitButton.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		063F9A90257E6F5600E62076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKSNRHW63A;
+				INFOPLIST_FILE = "DigitButton WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangeun.DigitButton.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		063F9A93257E6F5600E62076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKSNRHW63A;
+				IBSC_MODULE = DigitButton_WatchKit_Extension;
+				INFOPLIST_FILE = "DigitButton WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangeun.DigitButton.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		063F9A94257E6F5600E62076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKSNRHW63A;
+				IBSC_MODULE = DigitButton_WatchKit_Extension;
+				INFOPLIST_FILE = "DigitButton WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangeun.DigitButton.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		063F9A97257E6F5600E62076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKSNRHW63A;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangeun.DigitButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		063F9A98257E6F5600E62076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKSNRHW63A;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pangeun.DigitButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063F9A65257E6F4F00E62076 /* Build configuration list for PBXProject "DigitButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063F9A8C257E6F5600E62076 /* Debug */,
+				063F9A8D257E6F5600E62076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063F9A8E257E6F5600E62076 /* Build configuration list for PBXNativeTarget "DigitButton WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063F9A8F257E6F5600E62076 /* Debug */,
+				063F9A90257E6F5600E62076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063F9A92257E6F5600E62076 /* Build configuration list for PBXNativeTarget "DigitButton WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063F9A93257E6F5600E62076 /* Debug */,
+				063F9A94257E6F5600E62076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063F9A96257E6F5600E62076 /* Build configuration list for PBXNativeTarget "DigitButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063F9A97257E6F5600E62076 /* Debug */,
+				063F9A98257E6F5600E62076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 063F9A62257E6F4F00E62076 /* Project object */;
+}
